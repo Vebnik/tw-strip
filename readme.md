@@ -3,7 +3,7 @@
 ### Start app ✈️
 
 - **fast start** *unix-like os*
-1. download and exec *fast_start.sh* - `wget https://raw.githubusercontent.com/Vebnik/tw-strip/main/fast_start.sh | bash`
+1. download and exec *fast_start.sh* - `wget -O - https://raw.githubusercontent.com/Vebnik/tw-strip/main/fast_start.sh | bash`
 
 - **front** *React*
 
