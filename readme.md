@@ -2,12 +2,21 @@
 
 ### Start app ✈️
 
-- **front**
+- **front** *React*
 
 1. clone this rep - `gir clone [url]`
 2. enter a `front` dir - `cd front`
 3. install all dependency - `npm install`
 4. start dev app - `npm run start`
+
+- **front** *Vue*
+
+1. clone this rep - `gir clone [url]`
+2. enter a `front` dir - `cd vue_front`
+3. install vue cli - `npm i -g @vue/cli`
+4. install all dependency - `npm i`
+5. start dev app (vue cli) - `vue serve`
+6. start dev app (npm) - `npm start serve`
 
 - **back**
 
