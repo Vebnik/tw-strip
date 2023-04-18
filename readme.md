@@ -32,5 +32,5 @@
 
 1. django
 2. drf
-3. reactjs
+3. reactjs \ vuejs
 
