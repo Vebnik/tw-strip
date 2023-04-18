@@ -33,11 +33,9 @@
 
 <script>
 import AppService from "@/service/AppService";
-import Alert from "@/components/Alert";
 
 export default {
     name: 'Forms',
-    components: {Alert},
     data() {
         return {
             categories: [],
@@ -59,7 +57,8 @@ export default {
 
             await AppService.createPosts(data)
                 .then(res => {
-                    const metaData = `Created at: ${res.data.created_at}\nSymbols: ${res.data.symbol_count}`
+                    const metaData =
+                        `Created at: ${res.data.created_at}\nSymbols: ${res.data.symbol_count}\n Id: ${res.data.id}`
                     this.$notify({ title: 'Post created', text: metaData, type: 'success' })
                     this.handleReset()
                 })
